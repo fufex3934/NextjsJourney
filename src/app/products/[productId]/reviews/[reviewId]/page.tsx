@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { notFound } from 'next/navigation';
 export default async function ProductView(
     {params,
 
@@ -8,6 +8,9 @@ export default async function ProductView(
     }
 ) {
     const {productId,reviewId} = await params;
+    if(parseInt(reviewId)>1000){
+        notFound();
+    }
   return (
     
     <div>
