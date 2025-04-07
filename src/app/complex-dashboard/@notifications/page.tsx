@@ -1,7 +1,6 @@
-import React from 'react'
-
+import { Card } from "@/components/card"
 export default function NotificationsPage() {
   return (
-    <h1>NotificationsPage</h1>
+    <Card>NotificationsPage</Card>
   )
 }

@@ -1,7 +1,8 @@
+import { Card } from '@/components/card'
 import React from 'react'
 
 export default function RevenueMetrics() {
   return (
-    <h1>RevenueMetrics</h1>
+    <Card>RevenueMetrics</Card>
   )
 }
